@@ -1,0 +1,70 @@
+
+body{
+  background: url(images/sakura.jpg);
+  font-family: Arial, Helvetica, sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  margin: 0px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.card {
+  width: 500px;
+  background-color: lightpink;
+  box-shadow: 0px 5px 10px rgb(85, 85, 85);
+  border-radius: 15px;
+  text-align: center;
+}
+h1{
+  color: rgb(69, 49, 198);
+}
+#input{
+  width: 440px;
+  padding: 10px;
+  border: 0px;
+  border-radius: 7px;
+  box-shadow: 1px 1px 10px gray;
+}
+button{
+  background-color: rgb(90, 128, 255);
+  color: white;
+  width: 460px;
+  padding:10px;
+  border: 0px;
+  border-radius: 7px;
+  transition: 0.5s;
+}
+.register-btn{
+  background-color: rgb(1, 148, 1);
+  transition: 0.5s;
+}
+p{
+  margin-bottom: 50px;
+}
+button:hover{
+  background-color: rgb(63, 90, 179);
+  transition: 0.5s;
+}
+.register-btn:hover{
+  background-color: rgb(0, 90, 0);
+  transition: 0.5s;
+}
+@media (max-width: 600px) {
+  .card {
+    width: 70%;          
+    padding: 20px 15px;  
+    box-sizing: border-box;
+  }
+  #input,
+  button {
+    width: 100%;      
+    box-sizing: border-box;
+  }
+
+  h1 {
+    font-size: 24px; 
+  }
+}
